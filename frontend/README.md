@@ -1,3 +1,24 @@
+
+<div align="right"><img src="https://github.com/lipollis/Imagens-Git/blob/main/sun.png" /></div>
+
+<h1 align="center"> DS Movie - Semana Spring React  </h1>
+<h2 align="center"> Dev Superior  </h2>
+
+<h4 align="center"> 
+	🚀  React Select  🚀  SpringBoot Select  🚀
+</h4>
+<br>
+<div align="center">
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"></img>
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"></img>
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"></img>
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"></img>
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"></img>
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
+</div>
+<br>
+
+
 ## Objetivos do projeto para esta aula
 - Criar projetos backend e frontend
 - Salvar os projeto no Github em monorepo
@@ -379,3 +400,61 @@ Declaração dos estados (SalesCard):
 ```
 
 - **COMMIT: useState**
+
+## Atualizando o App.tsx
+```tsx
+import NotificationButton from "./components/NotificationButton";
+import Header from "./components/Header";
+import SalesCard from "./components/SalesCard";
+
+function App() {
+  return (
+    <>
+      <Header />
+      
+      <main>
+      <section id="sales">
+        <div className="dsmeta-container">
+          <SalesCard />
+        </div>
+      </section>
+      </main>
+    </>
+  );
+}
+
+export default App;
+```
+```css
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: #000;
+  color: #fff;
+}
+
+a,
+a:hover,
+a:visited {
+  color: unset;
+  text-decoration: none;
+}
+
+.dsmeta-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#sales {
+  padding: 40px 10px;
+}
+```
