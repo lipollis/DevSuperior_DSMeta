@@ -465,3 +465,58 @@ a:visited {
   padding: 40px 10px;
 }
 ```
+
+## Passo: Primeira requisição com Axios e useEffect
+
+```
+yarn add axios@0.27.2
+```
+
+- **COMMIT: Axios, useEffect first request**
+
+## Passo: Listagem de vendas
+
+Definição da BASE_URL:
+
+```javascript
+export const BASE_URL = import.meta.env.VITE_BACKEND_URL ?? "http://localhost:8080";
+```
+
+- **COMMIT: Sale listing**
+
+## Passo: Passando as datas como argumento
+
+- **COMMIT: Date update**
+
+## Passo: Enviar notificação
+
+- **COMMIT: Send notification**
+
+## Passo: Mensagem Toast de confirmação
+
+```
+yarn add react-toastify@9.0.5
+```
+
+No App.tsx:
+```javascript
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+```
+
+- **COMMIT: Toast**
+
+## Passo: Deploy no Netlify
+
+https://www.netlify.com/
+
+- Deploy básico
+  - Base directory: frontend
+  - Build command: yarn build
+  - Publish directory: frontend/dist
+  - Variáveis de ambiente:
+    - VITE_BACKEND_URL
+
+- Configurações adicionais
+  - Site settings -> Domain Management: (colocar o nome que você quiser)
+  - Deploys -> Trigger deploy
