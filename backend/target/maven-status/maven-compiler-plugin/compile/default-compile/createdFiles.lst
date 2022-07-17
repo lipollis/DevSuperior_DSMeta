@@ -1,2 +1,3 @@
 com\devsuperior\dsmeta\DsmetaApplication.class
 com\devsuperior\dsmeta\config\SecurityConfig.class
+com\devsuperior\dsmeta\entities\Sale.class

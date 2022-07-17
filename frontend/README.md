@@ -25,7 +25,9 @@
 
 ## Design Figma
 https://www.figma.com/file/PehiT8Dw4Lv5ioTSULZeRI/DSMeta3
+
 https://www.figma.com/file/Yu2RHFmirHQ4BIVZM2XxY6/DSMeta2
+
 https://www.figma.com/file/EN1zFtk4eY3Jgmpgi9YaMG/DSMeta1
 
 ## Ferramentas
