@@ -1,20 +1,19 @@
 
 <div align="right"><img src="https://github.com/lipollis/Imagens-Git/blob/main/sun.png" /></div>
 
-<h1 align="center"> DS Movie - Semana Spring React  </h1>
+<h1 align="center"> DS Meta - Semana Spring React  </h1>
 <h2 align="center"> Dev Superior  </h2>
 
 <h4 align="center"> 
-	🚀  React Select  🚀  SpringBoot Select  🚀
+	🚀  React Select  🚀  
 </h4>
 <br>
 <div align="center">
-    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"></img>
-    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"></img>
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"></img>
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"></img>
     <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"></img>
-    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
+    <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+          
 </div>
 <br>
 
